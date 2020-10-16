@@ -5,8 +5,6 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NOWARNINGS yes
 RUN set -x && \
   apt-get update -y -qq && \
-  apt-get upgrade -y -qq --no-install-recommends && \
-  : "basic dependencies" && \
   apt-get install -y -qq \
     build-essential \
     pkg-config \
