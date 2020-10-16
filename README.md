@@ -37,7 +37,7 @@ research code in beta. All interfaces are subject to change.*
 
 ## Install
 
-Docker is the easiest way to get started with this project. To pull a docker image with `online_photometric_calibration` already built, run the following:
+Docker is the quickest way to get started with this project. Of course, make sure to [install Docker](https://docs.docker.com/get-docker/) on your local system first. The easiest way to get started is to pull a docker image with `online_photometric_calibration` already built. To do this, run the following:
 
 ```
 cd docker
