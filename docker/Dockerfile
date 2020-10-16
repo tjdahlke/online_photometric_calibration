@@ -42,4 +42,5 @@ RUN cd /online_photometric_calibration/ && \
   rm -rf CMakeCache.txt CMakeFiles Makefile cmake_install.cmake example src && \
   chmod -R 777 ./*
 
+ENV PATH="/online_photometric_calibration/build/bin:${PATH}"
 ENTRYPOINT ["/bin/bash"]
